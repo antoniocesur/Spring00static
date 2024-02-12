@@ -10,4 +10,13 @@ public class Principal {
     public String inicio(){
         return "index";
     }
+
+    @GetMapping("/equipo")
+    public String equipo(){
+        return "equipo";
+    }
+    @GetMapping("/ubicacion")
+    public String ubicacion(){
+        return "ubicacion";
+    }
 }
